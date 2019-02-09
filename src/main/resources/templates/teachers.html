@@ -13,7 +13,7 @@
         <th>Last name</th>
     </tr>
     <tr th:each="teacher : ${teachers}">
-        <td th:teat="${teacher.id}">1</td>
+        <td th:text="${teacher.id}">0</td>
         <td th:text="${teacher.firstName}">Akyl</td>
         <td th:text="${teacher.lastName}">Kerimbekov</td>
     </tr>
